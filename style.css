@@ -1,0 +1,407 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4efea;
+}
+
+.cont1 {
+    background-image: url("assets/google-pixel-2-bay-ft-3qt.png");
+    height: 638px;
+    width: 1200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.content1 {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h-1,
+.h-2,
+.h-3,
+.h-4 {
+    backdrop-filter: blur(50px);
+    color: #14586f;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+.h-1 {
+    font-size: 45px;
+}
+
+.h-2 {
+    font-size: 27px;
+}
+
+.h-3 {
+    font-size: 70px;
+}
+
+.h-4 {
+    font-size: 32px;
+}
+
+.giff {
+    position: absolute;
+    bottom: 65px;
+    left: 10px;
+    right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img {
+    height: 52px;
+    width: 173px;
+    mix-blend-mode: darken;
+}
+
+.cont2 {
+    background-color: #c9af98;
+}
+
+.cont2-upper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.elem2-1 img,
+.elem2-2 img,
+.elem2-3 img,
+.elem2-4 img {
+    display: inline-block;
+    width: 266px;
+    height: 266px;
+    border-radius: 15px;
+    opacity: 1;
+    background-image: linear-gradient(to right bottom, rgb(221, 231, 246), rgb(221, 231, 246));
+    transition: 0.3s ease;
+}
+
+.elem2-1 img:hover,
+.elem2-2 img:hover,
+.elem2-3 img:hover {
+    transform: scale(1.2);
+}
+
+.elem2-1,
+.elem2-2,
+.elem2-3,
+.elem2-4 {
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.varients {
+    text-align: center;
+    font-size: 36px;
+    margin: 10px;
+    color: #3a4660;
+}
+
+.con2-lower {
+    display: flex;
+    justify-content: space-around;
+}
+
+.con2-var1 img,
+.con2-var2 img,
+.con2-var3 img {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    transition: 0.3s ease;
+
+}
+
+.con2-var1 img:hover,
+.con2-var2 img:hover,
+.con2-var3 img:hover {
+    transform: scale(1.2);
+}
+
+.con2-var1 h1,
+.con2-var2 h1,
+.con2-var3 h1 {
+    text-align: center;
+}
+
+.con2-var1,
+.con2-var2,
+.con2-var3 {
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 15px;
+}
+
+.con2-var1 {
+    opacity: 1;
+    background-image: linear-gradient(to right bottom, rgb(173, 173, 173), rgb(173, 173, 173));
+}
+
+.con2-var2 {
+    opacity: 1;
+    background-image: linear-gradient(to right bottom, rgb(196, 199, 197), rgb(196, 199, 197));
+}
+
+.con2-var3 {
+    opacity: 1;
+    background-image: linear-gradient(to right bottom, rgb(237, 235, 232), rgb(237, 235, 232));
+}
+
+.varient-color-name {
+    font-size: 13px;
+}
+
+.cont3-1 img,
+.cont3-2 img,
+.cont3-3 img,
+.cont3-4 img,
+.cont3-5 img,
+.cont3-6 img {
+    display: inline-block;
+    height: 510px;
+    width: 1226px;
+}
+
+.cont3-1,
+.cont3-2,
+.cont3-3,
+.cont3-4,
+.cont3-5,
+.cont3-6 {
+    display: inline-block;
+    height: 510px;
+    width: 1200px;
+}
+
+.cont3-1 {
+    position: relative;
+}
+
+.cont3-1-p {
+    position: absolute;
+    top: 83px;
+    right: 60px;
+    width: 250px;
+    height: 510 px;
+    display: inline-block;
+}
+
+.cont3-2 {
+    position: relative;
+}
+
+.cont3-2-p {
+    position: absolute;
+    top: 87px;
+    right: 65px;
+    width: 250px;
+    height: 510 px;
+    display: inline-block;
+}
+
+.cont3-3 {
+    position: relative;
+}
+
+.cont3-3-p {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    width: 250px;
+    height: 510 px;
+    display: inline-block;
+}
+
+.cont3-4 {
+    position: relative;
+}
+
+.cont3-4-p {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    width: 250px;
+    height: 510 px;
+    display: inline-block;
+}
+
+.cont3-5 {
+    position: relative;
+}
+
+.cont3-5-p {
+    position: absolute;
+    top: 128px;
+    left: 100px;
+    width: 250px;
+    height: 510 px;
+    display: inline-block;
+}
+
+.cont3-6 {
+    position: relative;
+}
+
+.cont3-6-p {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 250px;
+    height: 510 px;
+    display: inline-block;
+}
+
+.cont4-head {
+    text-align: center;
+}
+
+.cont4 {
+    width: 1226px;
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cont4-1 img,
+.cont4-2 img,
+.cont4-3 img,
+.cont4-4 img,
+.cont4-5 img,
+.cont4-6 img,
+.cont4-7 img,
+.cont4-8 img,
+.cont4-9 img,
+.cont4-10 img {
+    height: 200px;
+    width: 197px;
+}
+
+.cont4-1,
+.cont4-2,
+.cont4-3,
+.cont4-4,
+.cont4-5,
+.cont4-6,
+.cont4-7,
+.cont4-8,
+.cont4-9,
+.cont4-10 {
+    height: 300px;
+    width: 197px;
+    margin: 10px;
+    box-sizing: content-box;
+}
+
+.cont4-1 h4,
+.cont4-2 h4,
+.cont4-3 h4,
+.cont4-4 h4,
+.cont4-5 h4,
+.cont4-6 h4,
+.cont4-7 h4,
+.cont4-8 h4,
+.cont4-9 h4,
+.cont4-10 h4 {
+    margin: 0;
+}
+
+.cont4 p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.cont5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1226px;
+}
+
+.cont5-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.7px solid #845007;
+    width: 49.5%;
+    height: 300px;
+    background-color: #f4efea;
+}
+
+.cont5-head h3 {
+    color: #845007;
+}
+
+#namet {
+    border: none;
+    background-color: #f4efea;
+    border-bottom: 1px solid #845007;
+    margin: 5px;
+    align-content: center;
+    width: 92%;
+}
+
+#mailt {
+    border: none;
+    background-color: #f4efea;
+    border-bottom: 1px solid #845007;
+    margin: 5px;
+    width: 92%;
+}
+
+#submit-button {
+    background-color: #f3e4d7;
+    border: 2px solid #3a4660;
+    border-radius: 3px;
+    color: #845007;
+    margin: 7px;
+    height: 30%;
+    font-size: 20px;
+    width: 92%;
+}
+
+#submit-button:hover {
+    box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cont5-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 0.5px solid #845007;
+    width: 49%;
+    background-color: #f4efea;
+}
+
+.cont5-2 h3 {
+    color: #3a4660;
+}
+
+.cont5-2 p {
+    color: #ed8a63;
+}
+
+.cont5-2 button {
+    border: 2px solid #845007;
+    border-radius: 5px;
+    padding: 12px;
+    color: #3a4660;
+    background-color: #f3e4d7;
+}
+
+.cont5-2 button:hover {
+    box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
